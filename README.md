@@ -34,15 +34,6 @@ Security reviews often slow down rapid deployment cycles. **DevGuard AI** bridge
 
 ---
 
-## 🛠️ Tech Stack
-
-* **Framework:** [React 18+](https://react.dev/)
-* **Build Tool:** [Vite 6+](https://vitejs.dev/)
-* **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
-* **Icons:** [Lucide React](https://lucide.dev/)
-
----
-
 ## 🏗️ System Architecture
 
 ```text
@@ -54,6 +45,6 @@ Security reviews often slow down rapid deployment cycles. **DevGuard AI** bridge
              ▼                              ▼
 ┌──────────────────────────┐  ┌──────────────────────────┐
 │  AI Security Engine      │  │ Telemetry & Metrics      │
-│  • AST Code Analysis     │  • Architecture Scoring  │
-│  • Severity Profiling    │  • Pipeline Status      │
+│  • AST Code Analysis     │  • Architecture Scoring     │
+│  • Severity Profiling    │  • Pipeline Status          │
 └──────────────────────────┘  └──────────────────────────┘
