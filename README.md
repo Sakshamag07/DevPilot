@@ -1,37 +1,47 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# DevGuard AI — Cloud Security & Telemetry Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An AI-powered cloud security scanning and telemetry dashboard designed to identify vulnerability severities, monitor workspace architecture, and optimize deployment flows in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚡ Features
 
-## React Compiler
+* **Real-time Telemetry & Metrics:** Interactive performance monitoring, architecture scoring, and status indicators.
+* **Security & Vulnerability Analysis:** Automatic breakdown of system issues categorized by severity (`Critical`, `High`, `Medium`, `Low`, `Safe`).
+* **Interactive Code Workspace:** In-browser code editing with contextual AI diagnostic feedback.
+* **Keyboard Navigation:** Native command palette shortcut (`⌘K` / `Ctrl+K`) for rapid workspace controls.
+* **Modern UI/UX:** Styled using Tailwind CSS v4 featuring glassmorphism design elements, custom scrollbars, and full dark mode optimization.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+* **Framework:** [React 18+](https://react.dev/)
+* **Build Tool:** [Vite 6+](https://vitejs.dev/)
+* **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+* **Icons:** [Lucide React](https://lucide.dev/)
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+---
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
-=======
-# DevPilot
-DevPilot doesn't just tell developers what went wrong. It connects the entire incident lifecycle from the production error back to the exact code, generates the fix, validates it with tests, and takes it through deployment.
->>>>>>> 8961f1b0bb8e7a01022dfd725bd22f2a770bad5e
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js (v18 or higher) installed on your system.
+
+
+
+**Project Structure**
+
+CloudForge/
+├── src/
+│   ├── assets/          # Static assets and icons
+│   ├── components/      # Reusable UI components
+│   ├── App.jsx          # Main application dashboard layout
+│   ├── index.css        # Global CSS & Tailwind CSS imports
+│   └── main.jsx         # React application entry point
+├── public/              # Public static files
+├── index.html           # Main HTML document
+├── vite.config.js       # Vite configuration with Tailwind CSS plugin
+├── package.json         # Project dependencies and scripts
+└── README.md            # Project documentation
