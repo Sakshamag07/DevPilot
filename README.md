@@ -45,6 +45,6 @@ Security reviews often slow down rapid deployment cycles. **DevGuard AI** bridge
              ▼                              ▼
 ┌──────────────────────────┐  ┌──────────────────────────┐
 │  AI Security Engine      │  │ Telemetry & Metrics      │
-│  • AST Code Analysis     │  • Architecture Scoring     │
-│  • Severity Profiling    │  • Pipeline Status          │
+│  • AST Code Analysis     │  |  • Architecture Scoring  │
+│  • Severity Profiling    │  |  • Pipeline Status       │
 └──────────────────────────┘  └──────────────────────────┘
