@@ -1,16 +1,36 @@
-# DevGuard AI — Cloud Security & Telemetry Platform
+<div align="center">
 
-An AI-powered cloud security scanning and telemetry dashboard designed to identify vulnerability severities, monitor workspace architecture, and optimize deployment flows in real-time.
+  # 🛡️ DevGuard AI
+  ### Next-Generation Cloud Security & AI Telemetry Platform
+
+  [![React](https://img.shields.io/badge/React-18.0+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+  [![Vite](https://img.shields.io/badge/Vite-6.0+-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+  [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+
+  **DevGuard AI** empowers engineering teams to detect cloud security vulnerabilities, analyze telemetry metrics, and fix code security flaws in real-time using context-aware AI diagnostics.
+
+</div>
 
 ---
 
-## ⚡ Features
+## 🎯 Key Value Proposition
 
-* **Real-time Telemetry & Metrics:** Interactive performance monitoring, architecture scoring, and status indicators.
-* **Security & Vulnerability Analysis:** Automatic breakdown of system issues categorized by severity (`Critical`, `High`, `Medium`, `Low`, `Safe`).
-* **Interactive Code Workspace:** In-browser code editing with contextual AI diagnostic feedback.
-* **Keyboard Navigation:** Native command palette shortcut (`⌘K` / `Ctrl+K`) for rapid workspace controls.
-* **Modern UI/UX:** Styled using Tailwind CSS v4 featuring glassmorphism design elements, custom scrollbars, and full dark mode optimization.
+Security reviews often slow down rapid deployment cycles. **DevGuard AI** bridges the gap between DevOps speed and DevSecOps compliance by providing:
+
+* **Instant Threat Identification:** Scans active environments and categorizes issues by severity (`Critical`, `High`, `Medium`, `Low`).
+* **Automated Architecture Scoring:** Generates real-time cloud health indices based on live telemetry feeds.
+* **In-IDE Diagnostics:** Analyzes security code flaws directly within an embedded browser workspace with AI-driven remediation suggestions.
+
+---
+
+## ✨ Core Features
+
+* **⚡ Real-time Cloud Telemetry Dashboard:** Live monitoring of build status, architecture security scores, and deployment pipeline metrics.
+* **🛡️ Security & Vulnerability Analysis:** Color-coded threat categorizations with detailed issue breakdowns and recommended fixes.
+* **💻 Interactive Code Workspace:** Native code editor interface with real-time syntax inspection and AI diagnostic overlays.
+* **⌨️ Keyboard-First UX:** Global command palette (`⌘K` / `Ctrl+K`) for fast context switching and workspace control.
+* **🎨 Modern Developer-First Interface:** Glassmorphism UI built with custom Tailwind CSS v4 styling, optimized specifically for low-eyestrain dark environments.
 
 ---
 
@@ -23,25 +43,17 @@ An AI-powered cloud security scanning and telemetry dashboard designed to identi
 
 ---
 
-## 🚀 Getting Started
+## 🏗️ System Architecture
 
-### Prerequisites
-
-Make sure you have Node.js (v18 or higher) installed on your system.
-
-
-
-**Project Structure**
-
-CloudForge/
-├── src/
-│   ├── assets/          # Static assets and icons
-│   ├── components/      # Reusable UI components
-│   ├── App.jsx          # Main application dashboard layout
-│   ├── index.css        # Global CSS & Tailwind CSS imports
-│   └── main.jsx         # React application entry point
-├── public/              # Public static files
-├── index.html           # Main HTML document
-├── vite.config.js       # Vite configuration with Tailwind CSS plugin
-├── package.json         # Project dependencies and scripts
-└── README.md            # Project documentation
+```text
+┌─────────────────────────────────────────────────────────┐
+│                    DevGuard AI UI                       │
+│      (React 18 + Vite + Tailwind CSS v4 Engine)         │
+└────────────┬──────────────────────────────┬─────────────┘
+             │                              │
+             ▼                              ▼
+┌──────────────────────────┐  ┌──────────────────────────┐
+│  AI Security Engine      │  │ Telemetry & Metrics      │
+│  • AST Code Analysis     │  • Architecture Scoring  │
+│  • Severity Profiling    │  • Pipeline Status      │
+└──────────────────────────┘  └──────────────────────────┘
