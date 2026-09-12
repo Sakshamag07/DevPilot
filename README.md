@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
@@ -30,3 +31,7 @@ If you are developing a production application, we recommend enabling type-aware
 ```
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+=======
+# DevPilot
+DevPilot doesn't just tell developers what went wrong. It connects the entire incident lifecycle from the production error back to the exact code, generates the fix, validates it with tests, and takes it through deployment.
+>>>>>>> 8961f1b0bb8e7a01022dfd725bd22f2a770bad5e
